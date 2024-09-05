@@ -1,3 +1,12 @@
-div{
+.clock{
     border-width: 5px;
+    border-style: groove;
+    border-color: #9900ff;
+    background-color: violet;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
 }
