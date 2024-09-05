@@ -1,0 +1,14 @@
+button{
+    color: azure;
+    margin:4px;
+    font-style: italic;
+}
+.bg-red{
+    background-color: aqua;
+}
+.bg-blue{
+    background-color: beige;
+}
+.bg-green{
+    background-color: chartreuse;
+}
