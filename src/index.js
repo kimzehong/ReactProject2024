@@ -9,6 +9,7 @@ import Button from "./ch04/Button.css";
 import Clock from "./ch04/Clock"
 import Library from './ch04/Clock';
 import CommentList from "./ch05/CommentList";
+import NotificationList from "./ch06/NotificationList";
 
 
 
@@ -16,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <CommentList />
+        <NotificationList />
     </React.StrictMode>
     );
 
