@@ -10,7 +10,14 @@ import Clock from "./ch04/Clock"
 import Library from './ch04/Clock';
 import CommentList from "./ch05/CommentList";
 import NotificationList from "./ch06/NotificationList";
-import Accomodate from "./ch07/Accomodate";
+import Accomodate from "./ch08/Toggle2";
+import Toggle2 from "./ch08/Toggle2";
+import ClickButton from "./ch08/ClickButton";
+import Counter from "./ch08/Counter";
+import InputTest from "./ch08/InputTest";
+import ConfirmButton from "./ch08/ConfirmButton";
+import ConfirmButton2 from "./ch08/ConfirmButton2";
+import ConfirmButton3 from "./ch08/ConfirmButton3";
 
 
 
@@ -18,7 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <Accomodate/>
+        <ConfirmButton3 />
     </React.StrictMode>
     );
 
