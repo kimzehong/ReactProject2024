@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 // import ConfirmDialog from "./ch04/ConfirmDialog";
 // import Button from "./ch04/Button.css";
 import Clock from "./ch04/Clock";
-import './ch04/Clock.css'
+//import './ch04/Clock.css'
 import Library from "./ch03/Library"
 // import CommentList from "./ch05/CommentList";
 // import NotificationList from "./ch06/NotificationList";
@@ -23,18 +23,21 @@ import MyButton from "./ch08/MyButton";
 import NotificationList from "./ch06/NotificationList";
 import Greeting from "./chp09/Greeting";
 import LoginControl from "./chp09/LoginControl";
+import MailBox from "./chp09/MailBox";
+import LoginControl2 from "./chp09/LoginControl2";
+import LandingPage from "./chp09/LandingPage";
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(()=> {
     root.render(
         <React.StrictMode>
-            <LoginControl/>
+            <LandingPage/>
         </React.StrictMode>
     );
-},1000);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
