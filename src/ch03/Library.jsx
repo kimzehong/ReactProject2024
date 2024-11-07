@@ -8,7 +8,7 @@ function Library(props) {
             <Book name="처음 만난 ASW" numOfPage={400}/>
             <Book name="처음 만난 리엑트" numOfPage={500}/>
         </div>
-    )
+    );
 }
 
 export default Library;

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 //  클래스 필드 문법 사용하여 bind하는 문장을 생략하는 방법
-class MyButton extends React{
+class MyButton extends React.Component{
     constructor(props){
         super(props);
 
@@ -23,4 +23,4 @@ class MyButton extends React{
     }
 }
 
-export default MyButton
+export default MyButton;

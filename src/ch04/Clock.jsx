@@ -2,7 +2,7 @@ import React from "react";
 
 function Clock(props){
     return (
-        <div>
+        <div className="Clock">
             <h1>안녕, 리액트!</h1>
             <h2>현재 시간: {new Date().toLocaleTimeString()}</h2>
         </div>
