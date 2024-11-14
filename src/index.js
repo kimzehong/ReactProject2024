@@ -30,6 +30,7 @@ import App from "./App";
 import AppNumberList from "./ch10/AppNumberList";
 import StudentAttendance from "./ch10/StudentAttendance";
 import AppStudentAttendance from "./ch10/AppStudentAttendence";
+import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
 
 
 
@@ -38,7 +39,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <AppStudentAttendance/>
+            <AttendanceCard/>
         </React.StrictMode>
     );
 

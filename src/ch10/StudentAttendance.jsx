@@ -15,7 +15,7 @@ function StudentAttendance(){
              <ul>
                  {
                      students.map((student) => (
-                         <li>
+                         <li key={student.id}>
                             <b>{student.name}</b> - {student.grade}학년, {student.major}전공
                          </li>
                      ))
