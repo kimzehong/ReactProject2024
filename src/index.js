@@ -26,6 +26,10 @@ import LoginControl from "./chp09/LoginControl";
 import MailBox from "./chp09/MailBox";
 import LoginControl2 from "./chp09/LoginControl2";
 import LandingPage from "./chp09/LandingPage";
+import App from "./App";
+import AppNumberList from "./ch10/AppNumberList";
+import StudentAttendance from "./ch10/StudentAttendance";
+import AppStudentAttendance from "./ch10/AppStudentAttendence";
 
 
 
@@ -34,7 +38,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <LandingPage/>
+            <AppStudentAttendance/>
         </React.StrictMode>
     );
 
