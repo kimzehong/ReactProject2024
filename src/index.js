@@ -31,6 +31,9 @@ import AppNumberList from "./ch10/AppNumberList";
 import StudentAttendance from "./ch10/StudentAttendance";
 import AppStudentAttendance from "./ch10/AppStudentAttendence";
 import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
+import NameForm from "./chp11/NameForm";
+import NameRequestForm from "./chp11/NameRequestForm";
+import SignUp from "./chp11/SignUp";
 
 
 
@@ -39,7 +42,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <AttendanceCard/>
+            <SignUp/>
         </React.StrictMode>
     );
 
