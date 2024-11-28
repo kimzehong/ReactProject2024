@@ -34,6 +34,9 @@ import AttendanceCard from "./ch10/avatarAttendance/AttendanceCard";
 import NameForm from "./chp11/NameForm";
 import NameRequestForm from "./chp11/NameRequestForm";
 import SignUp from "./chp11/SignUp";
+import Calculator from "./chp12/Calculator";
+import Calculator2 from "./chp12/Calculator2";
+import DistanceConverter from "./chp12/distance/DistanceConverter";
 
 
 
@@ -42,7 +45,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <SignUp/>
+            <DistanceConverter/>
         </React.StrictMode>
     );
 
