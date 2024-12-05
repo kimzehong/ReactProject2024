@@ -37,6 +37,7 @@ import SignUp from "./chp11/SignUp";
 import Calculator from "./chp12/Calculator";
 import Calculator2 from "./chp12/Calculator2";
 import DistanceConverter from "./chp12/distance/DistanceConverter";
+import AirApp from "./chp13_airbnbHome/AirApp";
 
 
 
@@ -45,7 +46,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <DistanceConverter/>
+            <AirApp/>
         </React.StrictMode>
     );
 
